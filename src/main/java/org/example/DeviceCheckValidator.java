@@ -24,7 +24,8 @@ public class DeviceCheckValidator {
     private static final String KEY_ID = "S23G433686";
     private static final String PRIVATE_KEY_PATH = "AuthKey.p8";  // Path to your .p8 private key file
     private static final String DEVICE_CHECK_URL = "https://api.devicecheck.apple.com/v1/validate_device_token";
-    private static final String DEVICE_TOKEN = "AgAAAN4rNtiUgo4Ywm2ag0ct3UcEUNk0+me89vLfv5ZingpyOOkgXXXyjPzYTzWmWSu+BYqcD47byirLZ++3dJccpF99hWppT7G5xAuU+y56WpSYsAQM3lPhdF1deWTNcwZn0uM/LmGPVcAzRcqC790fBEbvBl2T31Yy8HdPqY5m11vjSeQ2B8I6Mg+QS03Lx7Js8UpSnggAAC3egyk/V99hLmlt1XxNH3+tgztQxOGDzHMa4AIzp9+Lyn/h7XqGMPMJFa+4X7ePYEGnYDYmv5BhGjl/qIcxKmxBg1qV/aFyGaLQVFBiuSemdMOhqDdS6zGYDDM1ZYoPUv6DL9U6QuqRbQjaaofef3xYEtw0yJIHYbX9GL2vgYvBXDyX0DytBSelUve20V/kBvs3fIoxtO6sIOVLgq6pAJUydRaKl5V2Bhp2q75hbXY7hFgSl3+4fk115VMGZGX4bCygRgVra/vc3m0rdGCaBtZ2lVNOZBb9xHHUU+VXdajUumn5YGVne7AmhHhsJjGx4t+BZu4lntI2EkWnLHguRaSLuY3kavO58X004IhrLyFr4xsXwckt6Ht1+tnqTlUMEV9s88xhFseTQFbVp7GN8fpSW2yXGumAvldUNttbDrjsEyzCT32u7kKlnN6RRgvYb4wh4QRt8SixOtfbVwgR4QNDcbcmnp/TeLm7LGs3tFtdPLJ+TXcmwVYSd/XHF1iN6bNxb978m5SHyJ4KtK3fic6966r0vBmPOcwGkbviX+TimzxlJ1VJ5JxYoxW0b8ToRC4YmJkbJgVhgp+h5MhxlRYlRAnZQsBkQe83JL2nL10gOARn6I1ZA902GlDquaAZ3AIR0qOud0VXfzH7s3dxDK6FwNd6nsOQB2MRJfQdlcQbvo7WjE9P9KhYGqrtSnmrnHw3fifkygxovgJgf6j1Wlgwu/5PuloCNevXd+UvDyjf9xArFUJE2Wn2/YKzCMxmctll0NPvLMOX0kdN8aZ5RqBky94awIP3feNQqKJPhCF0ku4I9U7WfiHqcil5nd1tT2TM3TMunWqLwzZ7Sd++NvT30zda19BPjRG/sCceuytdesnWloZuFHpdSdQuBEh8hFaZc+n5r2eFItR7suunwnjMspVW93mIKDJ9+OCRz6nyJKzWRqGWy3HHQ12tJLwZdwl6DcFzWh1aVGb8OO+uCRupULEyEreOrbJOL9tWnY2Ak1+HT8Jitduf59HbpkeHfkZHx4t8eBO2NwNaoS3c/HEPZnTV/dOUd7KYrKAXCuzdqsHLX54Ihx0js1IxnXAhjf8Y2w0I7kgCzoSf0fYhox0T4GEiZZfE1DrfMUki4fKInS018ibUobaYmCYXx2C7ISIgm382rH8KdX0YGF6JKkmtZTU7VLLhbibSejx8H2GUSfgtFSpsggZoY950il9XwY6Fw+gSmuHW8hYA4EzAl0dnBB1ztFVm9fH75cATlMVN6qDAf/RurJ2W4owmnihBUKg6MjqTapGcaIa4S4M+x5C9CEUYeDc7ECV7jc3vn00+IUtEw+pC9MLSdHH3bg4UO6puHJq95FAjiYBCVa5W0R+nNPH/4cJenz77X5l+2vVBP7QanYwy4vtcf2em3JWAgRhoFPAw4pfHGAIajbmi33dUFQYqs7LhTYZAopfpCDcFLg/iTjaTrfM+67svdKimibK3je6TxttEJRpuGYtjvBa8NuBxtLHlNiSkhlp5nAos/cas3HavVxV6txPgsk4nOp/WNM8LWDU4bY7Umr8pqPcBNWtc/69FP2o3TmODUmZehf+nrFHbCRuYQBak69ceJQ/BvmJHZq/QGO3KhVfKc9iLp3U87fblYOfjiSXo/2H+mXq1iTmXDo3VK9FegXfEi/zPdlDrgA30qi8sHLEqvT5Jx+rM2vsGHCpt3JbQW0LCfwJIS1cQHHzIHadwDZAJxjCUPycCUhuIiI+YmQYK4D6JkXvxdH0ayTXWw9CUcS+p9ubzmeEo0Av4zYQKXGMZqC2mMzesXQCBrtD28AVOG5EUotCxq35N/hVhGi/UOk2TeyunF7vJ+K0ZrAxbN1KkfL5wPHaqTWZfgSRJHJzeZ4u/99Lnofd5Ylj4xlAS2FHhFCedr6Ns5Wn7mvojYWPFwd47TicsbaY5mIQ/gztGeSCwMNCBhM6u1pa35ujk0VYEdjjruI9wIUph2gfVNs1ujKiRaiqwUcq83YEvAh7kic2SBHA8YMjdWI47y6Bx46MYqjhsO/ncRY5fhdBgqW7IxD2mb35nrHTJZPtO6vH9JaUti/nkU8ANkg/6ANZ88eyK4cD7oDnMYzpgtrVc4f/bD4j/z0X2XVqFSyMQaz/RM7h2ZDw0KPOh/oeKyC3Q9RYFV2QG1LsrVPYiKn5xV0jqV1Nh41gt6YX3IvLYiwqX74R6NItOMKg4Q8svPXBCj5pN8SlXiwTq9kgJ+/igePdvXK6zftzZxACdZN9+RKjZDF/GmAyxwsHSH6dDqYBvC4Ne6NOK7cTZZFMBclLhlBmbqYp7XwypvlVjHqlqOmQlP8zJk+JUM52XecGpm1cwNL1f0aMxHkBmS7i658aPrBNAF3tlQe9kjweTZWdlPJY+chm6L99DyF7mFdqUkA8VkbCYTq2CL+gfArYv0JcHcAHpRCL5y6f4DVZLUZDfieg7wQ6R98cXo0ol+xJemKLwSmOGkYWA+Qgte4/8pGnj7AZLbnaeNBXA6OccM9XkFtSB2PJyMePx6w2njpfG2k0XumC61GTQybwe9fqI/KW1o9//8+FYH2/sV6G6Sm0e9+95HzXZ8fSZRe/ywGVfNvqEJIlnSJmc/NpGDkyuAyxWj4IzaAmEwYOdFANm0jGB/L1fQh2liLfRlKKkcfhBRWb3GxMxWq5kF6vcpTll8IK+rSd9KgiXNpDrbat/Rg8+6OJDQR07BSl7RiIGsNaVMgpzh+i0Jcdbh8V/mPrUPsuGTa7LK64zOZ1NBTMLwVN2NJ2yHeZOmIqBo+R2WWdbkG2zE1z/R//9OtxQXipiEiHF6Jg3nzftkijUsdn0OJA7sl0KdmBx1UwVK7rcNbo8F4kYNVNn7j2CR0muYdPRS8MWKMfJ/VTd9D5kV6laXEKJLdqFZwUfB13/4BRK2OuSJswnlnp6vTbxSkcvHSdpjkpSWGw=";
+//    private static final String DEVICE_CHECK_URL = "https://api.devicecheck.apple.com/v1/update_two_bits";
+    private static final String DEVICE_TOKEN = "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";
 
     public static void main(String[] args) throws Exception {
         System.out.println("TEAM ID: "+TEAM_ID);
@@ -72,6 +73,9 @@ public class DeviceCheckValidator {
     private static void validateDeviceToken(String deviceToken, String jwt) throws Exception {
         long timestamp = System.currentTimeMillis();
         String transaction_id = UUID.randomUUID().toString();
+        boolean bit0 = true;
+        boolean bit1 = true;
+
         CloseableHttpClient httpClient = HttpClients.createDefault();
         HttpPost postRequest = new HttpPost(DEVICE_CHECK_URL);
 
@@ -80,7 +84,17 @@ public class DeviceCheckValidator {
         postRequest.setHeader("Content-Type", "application/json");
 
         // Create request body
-        String json = String.format("{\"device_token\": \"%s\", \"timestamp\": %d, \"transaction_id\": \"%s\"}", deviceToken, timestamp, transaction_id);
+//        String json = String.format(
+//                "{\"device_token\": \"%s\", \"transaction_id\": \"%s\", \"timestamp\": %d}",
+//                deviceToken,
+//                transaction_id,
+//                timestamp
+//        );
+        String json = String.format(
+                "{\"device_token\": \"%s\", \"timestamp\": %d, \"transaction_id\": \"%s\", \"bit0\": %b, \"bit1\": %b}",
+                deviceToken, timestamp, transaction_id, bit0, bit1
+        );
+
         StringEntity entity = new StringEntity(json, StandardCharsets.UTF_8);
         postRequest.setEntity(entity);
 
@@ -91,6 +105,7 @@ public class DeviceCheckValidator {
 
         // Handle the response
         System.out.println("Response Code: " + response.getStatusLine().getStatusCode());
+        System.out.println("Response Headers: " + Arrays.toString(response.getAllHeaders()));
         System.out.println("Response Body: " + responseString);
 
         httpClient.close();
